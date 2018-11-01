@@ -20,9 +20,9 @@ server {
 	ssl_prefer_server_ciphers On;
 	ssl_session_cache shared:SSL:128m;
 	
-	ssl_trusted_certificate /etc/letsencrypt/live/{{ domain }}/chain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/{{ domain }}/privkey.pem;
-    ssl_certificate /etc/letsencrypt/live/{{ domain }}/fullchain.pem;
+#	ssl_trusted_certificate /etc/letsencrypt/live/{{ domain }}/chain.pem;
+#    ssl_certificate_key /etc/letsencrypt/live/{{ domain }}/privkey.pem;
+#    ssl_certificate /etc/letsencrypt/live/{{ domain }}/fullchain.pem;
 
 	ssl_stapling on;
 	ssl_stapling_verify on;

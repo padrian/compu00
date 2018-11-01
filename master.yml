@@ -11,7 +11,7 @@
 #   - no_spoofing
     - fail2ban
     - sendmail
-    - letsencrypt
+#    - letsencrypt
     - nginx
     - mysql
     - php
