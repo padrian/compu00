@@ -116,7 +116,7 @@ server {
 
 
   	location ~* (\.jpg|\.png|\.gif|\.jpeg|\.png)$ {
-		valid_referers none blocked;
+		valid_referers none blocked {{ domain }};
 		if ($invalid_referer) {
 			return 403;
 	 	}
