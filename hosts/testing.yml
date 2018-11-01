@@ -1,5 +1,5 @@
 [local]
-host1.yourdomain.app ansible_host=10.0.3.53  ansible_user=ubuntu
+host1.compucorp ansible_host=127.0.0.1  ansible_user=ubuntu
 
 
 

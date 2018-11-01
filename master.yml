@@ -8,7 +8,7 @@
     - common
     - ufw
     - ssh
-    - no_spoofing
+#   - no_spoofing
     - fail2ban
     - sendmail
     - letsencrypt
