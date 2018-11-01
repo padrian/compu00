@@ -1,6 +1,6 @@
 ---
 
-domain: compucorp.com.ug                       
-domain_www: compucorp.com.ug               
+domain: gitlab.mak.ac.ug                       
+domain_www: gitlab.mak.ac.ug              
 resolver: 8.8.8.8
 nginx_worker_processes: "{{ ansible_processor_cores }}"

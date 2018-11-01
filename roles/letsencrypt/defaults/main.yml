@@ -1,6 +1,6 @@
 ---
 
-webroot_dir: "compucorp.com.ug"                        
+webroot_dir: "gitlab.mak.ac.ug"                        
 letsencrypt_command: letsencrypt
 letsencrypt_webroot_path: "/var/www/{{ webroot_dir }}"
 letsencrypt_email: padrian.baba@gmail.com 
