@@ -1,6 +1,6 @@
 ---
 
-domain: yourdomain.app                        
-domain_www: www.yourdomain.app                
+domain: ec2-52-90-175-222.compute-1.amazonaws.com                       
+domain_www: ec2-52-90-175-222.compute-1.amazonaws.com                
 resolver: 8.8.8.8
 nginx_worker_processes: "{{ ansible_processor_cores }}"
