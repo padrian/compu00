@@ -1,6 +1,6 @@
 ---
 
-webroot_dir: "ec2-52-90-175-222.compute-1.amazonaws.com"                        
+webroot_dir: "compucorp.com.ug"                        
 letsencrypt_command: letsencrypt
 letsencrypt_webroot_path: "/var/www/{{ webroot_dir }}"
 letsencrypt_email: padrian.baba@gmail.com 
