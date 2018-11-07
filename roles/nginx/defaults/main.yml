@@ -1,6 +1,6 @@
 ---
 
-domain: compucorp.com                     
-domain_www: compucorp.com            
+domain: compucorp                     
+domain_www: compucorp            
 resolver: 8.8.8.8
 nginx_worker_processes: "{{ ansible_processor_cores }}"
