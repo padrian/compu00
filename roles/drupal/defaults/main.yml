@@ -6,7 +6,7 @@ drupal_db: "drupal"
 drupal_user: "drupaluser"
 drupal_password: "drupalp455w0rd!"
 drupal_docroot: "/var/www"
-drupal_version: "drupal-7.54"
+drupal_version: "drupal-7.55"
 drupal_dir: "{{ domain }}"
 drupal_absolute_docroot: "{{ drupal_docroot }}/{{ domain }}"
 
